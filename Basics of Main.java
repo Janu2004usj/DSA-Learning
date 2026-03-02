@@ -62,4 +62,57 @@ public class Main {
         sc.close();
     }
 }
+
+/*Question 1: Print Numbers from 1 to N
+
+Problem:
+Given a number N, print numbers from 2 to N.
+
+Example:
+Input: 5
+Output: 1 2 3 4 5 */
+
+
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 2; i <= N; i++) {
+            System.out.print(i + " ");
+        }
+
+        sc.close();
+    }
+}
+
+
+/*Question 2: Find Sum of Natural Numbers
+
+Problem:
+Given N, find the sum of numbers from 1 to N.
+
+Example:
+Input: 5
+Output: 15*/
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int sum = 0;
+
+        for (int i = 1; i <= N; i++) {
+            sum += i;
+        }
+
+        System.out.println(sum);
+        sc.close();
+    }
+}
+
   
